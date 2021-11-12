@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        table td,
+        th {
+            border-collapse: collapse;
+            text-align: left;
+        }
+    </style>
+</head>
+
+<body>
+    <form>
+        <fieldset style="border: 1px solid #ffbf00; background-color:#EABE3F">
+            <table style="width: 40%">
+                <tr>
+                    <td>
+                        <h3>Leave Form</h3>
+                    </td>
+                    <td><select style="border-color:#EABE3F; background-color: #EABE3F">
+                            <option value="more_action">More Options</option>
+                            <option value="option1">Option1</option>
+                            <option value="option2">Option2</option>
+                        </select>
+                    </td>
+                </tr>
+            </table>
+        </fieldset>
+
+        <fieldset style="border: 1px solid #ffbf00">
+            <table>
+                <tr>
+                    <th style="width: 50%;"><label for="employee_email"></label>Employee Email</th>
+                    <td><select name="type">
+                            <option>appuser@zohocreator.com</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td></td>
+                </tr>
+                <tr>
+                    <th style="width: 50%;"><label for="employee_id"></label>Employee Id</th>
+                    <td><input type="number" name="employee_id" id="employee_id" required /></td>
+                </tr>
+                <tr>
+                    <td></td>
+                </tr>
+                <tr>
+                    <th style="width: 50%;"><label for="employee_name"></label>Employee Name</th>
+                    <td><input type="text" name="employee_name" id="employee_name" required /></td>
+                </tr>
+                <tr>
+                    <td></td>
+                </tr>
+                <tr>
+                    <th style="width: 50%;"><label for="designation">Designation</label></th>
+                    <td><input type="text" name="designation" id="designation" required /></td>
+                </tr>
+                <tr>
+                    <td></td>
+                </tr>
+                <tr>
+                    <th style="width: 50%;"><label for="leave_type">Leave type *</label></th>
+                    <td><select style="width: 50%;" name="leave_type" id="leave_type" required>
+                            <option value="select">-Select-</option>
+                            <option value="option1">-Option1-</option>
+                            <option value="Option2">-Option2-</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td></td>
+                </tr>
+                <tr>
+                    <th style="width: 50%;"><label for="from"></label>From*</th>
+                    <td><input type="date" name="from" id="from" required>[dd - MM - yyyy]</td>
+                </tr>
+                <tr>
+                    <td></td>
+                </tr>
+                <tr>
+                    <th style="width: 50%;"><label for="to"></label>To*</th>
+                    <td><input type="date" name="to" id="to" required>[dd - MM - yyyy]</td>
+                </tr>
+                <tr>
+                    <td></td>
+                </tr>
+                <tr>
+                    <th><label for="no_of_days"></label>No of Days</th>
+                    <td><input type="number" name="no_of_days" id="no_of_days" required></td>
+                </tr>
+                <tr>
+                    <td></td>
+                </tr>
+                <tr>
+                    <th style="vertical-align: top; width: 50%;"><label for="reason"></label>Reason</th>
+                    <td><textarea name="reason" id="reason" cols="30" rows="10"></textarea>
+                </tr>
+            </table>
+        </fieldset>
+
+        <fieldset style="border: 1px solid #ffbf00; text-align: center; background-color:#c3c3c3">
+            <button type="submit"
+                style="color: white; border: 1px solid grey; background-color:#EABE3F; border-color:#ffbf00"><b>Submit</b></button>
+            <button type="reset"
+                style="color: white; border: 1px solid grey; background-color:#EABE3F; border-color:#ffbf00"><b>Reset</b></button>
+        </fieldset>
+    </form>
+
+
+</body>
+
+</html>
